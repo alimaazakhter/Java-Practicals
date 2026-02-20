@@ -1,13 +1,24 @@
-class Arithmetic
+import java.util.Scanner;
+
+public class Arithmetic
 {
-	public static void main(String[] args)
-	{
-		int no1 = 20;
-		int no2 = 10;
-		System.out.println("Addition is : " + (no1+no2));
-		System.out.println("Substration is : " + (no1-no2));
-		System.out.println("Mulitplication is : " + (no1*no2));
-		System.out.println("Division is : " + (no1/no2));
-		System.out.println("Modules is : " + (no1%no2));
-	}
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter any element : ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter any element : ");
+        int b = sc.nextInt();
+
+        System.out.println("Addition of both elements are:  " + (a+b));
+        System.out.println("Substration of both elements are:  " + (a-b));
+        System.out.println("Mulitplication of both elements are:  " + (a*b));
+        System.out.println("Division of both elements are:  " + (a/b));
+		System.out.println("Modules of both elements are: " + (a%b));
+
+        sc.close(); 
+
+    } 
 }
