@@ -1,2 +1,2 @@
 # Java-Practicals
-Putting all the java code done in the class
+Here I am Posting All the java Praticals
